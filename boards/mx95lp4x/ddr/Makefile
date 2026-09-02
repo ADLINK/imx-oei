@@ -1,0 +1,4 @@
+DDR_CONFIG ?= MIMX95_LPDDR4X_EVK_19X19_4266MTS_FW2024.09_timing
+OBJS  += $(OUT)/$(DDR_CONFIG).o
+
+VPATH += boards/mx95lp4x/ddr
